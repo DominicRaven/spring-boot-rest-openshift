@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/jdamor/spring-boot-rest-openshift.png?label=ready&title=Ready)](https://waffle.io/jdamor/spring-boot-rest-openshift)
 # spring-boot-rest-openshift
 
 [![Build Status](https://travis-ci.org/jdamor/spring-boot-rest-openshift.svg?branch=master)](https://travis-ci.org/jdamor/spring-boot-rest-openshift)
