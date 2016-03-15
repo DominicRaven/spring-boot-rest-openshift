@@ -11,3 +11,4 @@ Example of REST API with Spring Boot hosted in Openshift
 * Coveralls:
   - Unit test (JUnit) coverage added to .travis.yml
   - Added badge status for branch master.
+  - Added plugin for Maven
