@@ -12,3 +12,6 @@ Example of REST API with Spring Boot hosted in Openshift
   - Unit test (JUnit) coverage added to .travis.yml
   - Added badge status for branch master.
   - Added plugin for Maven
+* Waffle.io:
+  - Project management board based on Github issues
+  - Just login with your github user a accept pull request to start (and add badges)
