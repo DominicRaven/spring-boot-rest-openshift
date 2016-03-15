@@ -10,7 +10,8 @@ Example of REST API with Spring Boot hosted in Openshift
 
 * Travis-CI:
   - Added .travis.yml and badge for branch master.
-  - Example of Travis pushing to Openshift in .travis.yml.openshift (rename and change values or "travis setup openshift)
+  - Example of Travis pushing to Openshift in .travis.yml.openshift (rename and change values or recommended "travis setup openshift")
+    - travis command line client: https://github.com/travis-ci/travis.rb#installation 
 * Coveralls:
   - Unit test (JUnit) coverage added to .travis.yml
   - Added badge status for branch master.
@@ -21,4 +22,4 @@ Example of REST API with Spring Boot hosted in Openshift
 * Openshift (Using Web console):
   - Create a "Do-It-Yourself 0.1" application
   - Choose this repositorie as Source Code
-  - Update .travis.yml to push succesful builds to Openshift
+  - Update .travis.yml to push succesful builds to Openshift (travis setup openshift)
