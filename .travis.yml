@@ -6,7 +6,7 @@ deploy:
   user: jdamor.juampi@gmail.com
   password:
     secure: H5mUd4/8vp8w9bdJqbWa8o8og15BNesEIidxYVlXfnP205nwyU3HX1DyBaWcQDN+4tDBGMmJxf981oT1fL6tdPO3WkhMyExSoRjq+kz1r00P41046rW9NpXe+fgZ9I5TBG1GDXrMqbqPZZAXRCY/+xZVV0JAfl/Qo5yRufhhFLgPr6uau5nbbNfEobzX4uuxnRTOoG3x3ZxArMtgtdGsZmIV/pJFzYfSQ2hVApJ3js9/yhzHBCklWeDzHPGEF7oFEUHUJKWnmR0zdPXtaKZ0P7iIKZfOA5koMZOQDPW20cgcr66mEbi9Ma8w8rTLlDquIy+OUQu5en15PB2UNPaOCQXDsURI4EH9nfIQxVrdrNb22o6SUl+nj4x05IfvEMA1C5KvXrQ2RqsAnk3NgMPWqSdzTyR9rSFUQW6RSNML27iJ2A7Ob6EFOfhq/Ab1NSPe3mIIBjmDRmMMgI3Mg3GELua+JnBTDG0PQQDy//fmahXJQr+3FpqXJp0JocaUTsxdCe7VDC8a75/TnMuPpd+6A2kh1HNksxvX44H1OXUuFErWBuiQh+OcvgdkdojF99N6IljU8YEmLLvI6U/kSU0iIqMHRq1TrpGyAt6qVPn7Q8NQrqDbCKB8tfhXXOxTK5yANzS4jEA3fBoDv95jDWkL0Eg7lvUrizoRRKHNqvAyvTo=
-  app: spring-boot-rest-openshift
+  app: rest
   domain: jdamor
   on:
     repo: jdamor/spring-boot-rest-openshift
