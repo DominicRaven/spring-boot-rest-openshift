@@ -1,4 +1,12 @@
 language: java
 after_success:
 - mvn clean cobertura:cobertura coveralls:report
-
+deploy:
+  provider: openshift
+  user: jdamor.juampi@gmail.com
+  password:
+    secure: fYIULC+iebRLSa1t0Ixnp731H6hOkKSXeV9m8Sx4WEivyxGGRnAfE+76OtLQiIT8F97RcmFnkZs64MgQX2DRSBU/kMlJnpwt1bK201CJ00TOVj6J7isYDyUAeKSIM75BqQ764iyXD02jPVCc0IegTMbebDQj6Q2gC9LL9uILMsbXAT5m7gnqNdWi/9sxPCo10tu4BxKku465r7uYKoMZl1YnL+UQx00TUMkR7w7znfc01ovHwOs+7vK7Sn35CY0k4ZjwHbiQVWWspH0C8ANYvBpsr0sZBUzwV9eonI8pmeh5yIL05+DkFTOxXgMvieJE9i5cgliY5tS+CcHc609Mn9o8MnfpQDSch+PgrJTTD5GOBZurGrrX0BpZ+PjngZyT4624H0lNfdtmxqT/FkmX5mQ5/mbe+GV2xP1GvDasSJ1nhOML7EkEjg4ig7Gp+ouwRvSyBjhpGf8viyc1jq2wB6PJYm4k2Ce5U8tj9gIavY9zx87iKfPCE9AwJEPmKKH9JcqoLfpqyLCtvNtnQOrUIJR1c3g9i3d6E0anNplwlN69S51SgxxsvuZRyFnNcUFxp6KpsuGlWqQwDhzYdMhBK4dEjAra6xaM82qWlsjLfyzSui+O1rhfECqC1R9le1v4fs0E2g1NtNGIfjCAPrkGR4DJz7wzGBJCYTdGw06bleo=
+  app: rest
+  domain: jdamor
+  on:
+    repo: jdamor/spring-boot-rest-openshift
