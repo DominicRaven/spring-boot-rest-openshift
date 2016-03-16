@@ -1,6 +1,10 @@
-package com.galpon.app;
+package com.galpon.rest;
 
 import org.junit.Test;
+
+import com.galpon.rest.Greeting;
+import com.galpon.rest.GreetingController;
+
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -12,7 +16,7 @@ public class GreetingControllerTest {
 		public void greetingNameTest() {
 			GreetingController greetingController = new GreetingController();
 			Greeting greeting = greetingController.greeting("TEST");
-			assertEquals(greeting.getName(), "Hello, TEST!");
+			assertEquals(greeting.getName(), "Hi, TEST!");
 		}
 
 		@Test

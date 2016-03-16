@@ -1,4 +1,4 @@
-package com.galpon.app;
+package com.galpon.rest;
 
 public class Greeting {
 	

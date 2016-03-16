@@ -1,6 +1,9 @@
-package com.galpon.app;
+package com.galpon.rest;
 
 import org.junit.Test;
+
+import com.galpon.rest.SumController;
+
 import static org.junit.Assert.assertEquals;
 
 /**

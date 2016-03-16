@@ -1,8 +1,10 @@
-package com.galpon.app;
+package com.galpon.rest;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import com.galpon.rest.TimeController;
 
 /**
  * Unit test for TimeController.

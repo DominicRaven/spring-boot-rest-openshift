@@ -1,4 +1,4 @@
-package com.galpon.app;
+package com.galpon.rest;
 
 import org.joda.time.LocalTime;
 import org.springframework.web.bind.annotation.RequestMapping;

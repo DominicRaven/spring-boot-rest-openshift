@@ -2,11 +2,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-	<groupId>com.galpon.app</groupId>
-	<artifactId>my-app</artifactId>
+	<groupId>com.galpon.rest</groupId>
+	<artifactId>Rest-Server</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>my-app</name>
+	<name>Rest-Server</name>
 	<url>http://maven.apache.org</url>
 
     <parent>
